@@ -35,13 +35,14 @@ public class MainController {
 	@FXML
 	public void feedData(ActionEvent action) {
 		
+		
 		String s =String.valueOf(i);
 		String b = String.valueOf(100 - i);
 		String o = String.valueOf(1000 + i);
 		MPH.setText(s);
 		RPM.setText(s);
 		odm.setText(o);
-		b36.setText(b+"%");
+		b36.setText(b+"%%");
 		b35.setText(b+"%");
 		b34.setText(b+"%");
 	    b33.setText(b+"%");
@@ -49,6 +50,7 @@ public class MainController {
 		b31.setText(b+"%");
 		
 		i++;
+		
 	}
 	
 }
